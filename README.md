@@ -3,6 +3,6 @@ Implementation of various algorithms in Kotlin
 
 ### Sort Algorithms
 - [x] Heapsort
-- [ ] Mergesort
+- [x] Mergesort
 - [ ] Quicksort
 - [ ] Bubblesort
