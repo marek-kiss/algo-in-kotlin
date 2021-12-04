@@ -8,6 +8,7 @@ Implementation of various algorithms in Kotlin
 - [x] [Bubblesort](../main/src/main/kotlin/sk/mkiss/algorithms/sort/BubbleSort.kt)
 - [x] [Countingsort](../main/src/main/kotlin/sk/mkiss/algorithms/sort/CountingSort.kt)
 - [x] [Radixsort](../main/src/main/kotlin/sk/mkiss/algorithms/sort/RadixSort.kt)
+- [x] [TrieSort](../main/src/main/kotlin/sk/mkiss/algorithms/sort/TrieSort.kt)
 
 ### Search Algorithms
 - [x] [Binary Search](../main/src/main/kotlin/sk/mkiss/algorithms/search/BinarySearch.kt)
