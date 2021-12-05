@@ -12,3 +12,7 @@ Implementation of various algorithms in Kotlin
 
 ### Search Algorithms
 - [x] [Binary Search](../main/src/main/kotlin/sk/mkiss/algorithms/search/BinarySearch.kt)
+
+### Generators
+- [x] [Subsets](../main/src/main/kotlin/sk/mkiss/algorithms/generator/SubsetsGenerator.kt)
+- [ ] Permutations
