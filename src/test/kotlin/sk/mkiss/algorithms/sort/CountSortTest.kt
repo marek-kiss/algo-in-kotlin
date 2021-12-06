@@ -22,7 +22,7 @@ internal class CountSortTest {
     }
 
     @Test
-    fun `should sort bjects with duplicates by number`() {
+    fun `should sort objects with duplicates by number`() {
 
         val result = CountingSort.sortBy(array = people, selector = Person::age)
 
