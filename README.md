@@ -15,4 +15,4 @@ Implementation of various algorithms in Kotlin
 
 ### Generators
 - [x] [Subsets](../main/src/main/kotlin/sk/mkiss/algorithms/generator/SubsetsGenerator.kt)
-- [ ] Permutations
+- [x] [Permutations](../main/src/main/kotlin/sk/mkiss/algorithms/generator/PermutationsGenerator.kt)
