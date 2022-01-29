@@ -1,7 +1,5 @@
 package sk.mkiss.algorithms.generator
 
-import sk.mkiss.algorithms.sort.QuickSort
-
 object PermutationsGenerator {
 
     /**
@@ -43,7 +41,7 @@ object PermutationsGenerator {
         }
 
         swap(number, i, indexOfSmallestGreater)
-        val sorted = QuickSort.sort(number.sliceArray(i + 1 until number.size))
+        val sorted = number.sliceArray(i + 1 until number.size).apply { reverse() }
 
         return number.sliceArray(0..i) + sorted
     }
