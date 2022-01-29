@@ -16,11 +16,12 @@ object SubsetsGenerator {
         val inputAsList = input.toList()
 
         return (0 until 2.pow(n)).map { x ->
-            (0 until n).filter { n -> testNthBit(x, n) }.map { i -> inputAsList[i] }.toSet()
+            val selectedIndices = (0 until n).filter { n -> testNthBit(x, n) }
+            selectedIndices.map { i -> inputAsList[i] }.toSet()
         }
     }
 
-    private fun testNthBit(x: Int, i: Int): Boolean = (x and (1 shl i)) != 0
+    private fun testNthBit(x: Int, n: Int): Boolean = (x and (1 shl n)) != 0
 
     private fun Int.pow(exponent: Int) = this.toDouble().pow(exponent).toInt()
 }
