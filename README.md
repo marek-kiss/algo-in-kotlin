@@ -19,3 +19,4 @@ Implementation of various algorithms in Kotlin
 
 ### Greedy Algorithms
 - [x] [Bus stop planning](../main/src/main/kotlin/sk/mkiss/algorithms/greedy/BusStopPlanner.kt)
+- [x] [School schedule planning](../main/src/main/kotlin/sk/mkiss/algorithms/greedy/SchoolSchedulePlanner.kt)
