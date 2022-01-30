@@ -16,3 +16,6 @@ Implementation of various algorithms in Kotlin
 ### Generators
 - [x] [Subsets](../main/src/main/kotlin/sk/mkiss/algorithms/generator/SubsetsGenerator.kt)
 - [x] [Permutations](../main/src/main/kotlin/sk/mkiss/algorithms/generator/PermutationsGenerator.kt)
+
+### Greedy Algorithms
+- [x] [Bus stop planning](../main/src/main/kotlin/sk/mkiss/algorithms/greedy/BusStopPlanner.kt)
