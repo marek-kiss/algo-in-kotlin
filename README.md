@@ -21,3 +21,7 @@ Implementation of various algorithms in Kotlin
 - [x] [Bus stop planning](../main/src/main/kotlin/sk/mkiss/algorithms/greedy/BusStopPlanner.kt)
 - [x] [School schedule planning](../main/src/main/kotlin/sk/mkiss/algorithms/greedy/SchoolSchedulePlanner.kt)
 - [x] [Job scheduling](../main/src/main/kotlin/sk/mkiss/algorithms/greedy/JobScheduler.kt)
+
+### Dynamic Programming
+- [x] [Fibonacci number](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/Fibonacci.kt) [(description)](https://en.wikipedia.org/wiki/Fibonacci_number)
+- [ ] Max subset of non-adjacent elements [(description)](https://www.hackerrank.com/challenges/max-array-sum)
