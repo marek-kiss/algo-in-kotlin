@@ -24,4 +24,4 @@ Implementation of various algorithms in Kotlin
 
 ### Dynamic Programming
 - [x] [Fibonacci number](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/Fibonacci.kt) [(description)](https://en.wikipedia.org/wiki/Fibonacci_number)
-- [ ] Max subset of non-adjacent elements [(description)](https://www.hackerrank.com/challenges/max-array-sum)
+- [x] [Max subset of non-adjacent elements](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxNonAdjacentSubsetSumCalculator.kt) [(description)](https://www.hackerrank.com/challenges/max-array-sum)
