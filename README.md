@@ -26,3 +26,4 @@ Implementation of various algorithms in Kotlin
 - [x] [Fibonacci number](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/Fibonacci.kt) [(description)](https://en.wikipedia.org/wiki/Fibonacci_number)
 - [x] [Max subset of non-adjacent elements](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxNonAdjacentSubsetSumCalculator.kt) [(description)](https://www.hackerrank.com/challenges/max-array-sum)
 - [x] [Unique paths in a Grid with Obstacles](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/GridWithObstacles.kt) [(description)](https://www.geeksforgeeks.org/unique-paths-in-a-grid-with-obstacles)
+- [x] [Longest increasing subsequence](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/LongestIncreasingSubsequence.kt) [(description)](https://www.hackerrank.com/challenges/longest-increasing-subsequent)
