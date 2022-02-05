@@ -12,6 +12,11 @@ object LongestIncreasingSubsequence {
      * @return
      */
     fun getSizeOfLIS(sequence: List<Int>): Int {
+        val longestEndingAt = calculateLISEndingInX(sequence)
+        return longestEndingAt.maxOrNull() ?: 0
+    }
+
+    private fun calculateLISEndingInX(sequence: List<Int>): List<Int> {
         val longestEndingAt = MutableList(sequence.size) { 1 }
 
         (sequence.indices).forEach { i ->
@@ -21,7 +26,38 @@ object LongestIncreasingSubsequence {
                 }
             }
         }
-        return longestEndingAt.maxOrNull() ?: 0
+        return longestEndingAt
+    }
+
+    fun getLIS(sequence: List<Int>): List<Int> {
+        if (sequence.isEmpty()) return emptyList()
+
+        val longestEndingAt = calculateLISEndingInX(sequence)
+
+        val lis = mutableListOf<Int>()
+
+        // reconstruct the LIS from longestEndingAt
+        var nextIndex = getNextIndex(longestEndingAt, sequence, end = sequence.size, prevValue = Int.MAX_VALUE)
+        while (nextIndex != null) {
+            lis.add(sequence[nextIndex])
+            nextIndex = getNextIndex(longestEndingAt, sequence, end = nextIndex, prevValue = sequence[nextIndex])
+        }
+
+        return lis.reversed()
+    }
+
+    private fun getNextIndex(longestEndingAt: List<Int>, sequence: List<Int>, end: Int, prevValue: Int): Int? {
+        var maxL = 0
+        var index: Int? = null
+
+        (0 until end).forEach { i ->
+            if (prevValue > sequence[i] && longestEndingAt[i] > maxL) {
+                maxL = longestEndingAt[i]
+                index = i
+            }
+        }
+
+        return index
     }
 
     /**

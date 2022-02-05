@@ -1,6 +1,7 @@
 package sk.mkiss.algorithms.dynamic
 
 import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
@@ -17,6 +18,24 @@ internal class LongestIncreasingSubsequenceTest {
     @MethodSource("getTestData")
     fun `getSizeOfLISFast - should return correct size of LIS`(sequence: List<Int>, expected: Int) {
         assertThat(LongestIncreasingSubsequence.getSizeOfLISFast(sequence)).isEqualTo(expected)
+    }
+
+    @Test
+    fun `getLIS - should return the longest increasing subsequence`() {
+        assertThat(
+            LongestIncreasingSubsequence.getLIS(listOf(2, 4, 3, 7, 4, 5, 5, 4, 6))
+        ).isEqualTo(
+            listOf(2, 3, 4, 5, 6)
+        )
+    }
+
+    @Test
+    fun `getLIS - should return increasing subsequences with the longest size from multiple candidates`() {
+        assertThat(
+            LongestIncreasingSubsequence.getLIS(listOf(2, 4, 3, 7, 5, 5, 5, 4, 6))
+        ).isEqualTo(
+            listOf(2, 4, 5, 6)
+        )
     }
 
     companion object {
