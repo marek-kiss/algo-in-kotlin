@@ -13,7 +13,7 @@ internal class ClimbingStairsSolutionTest {
         "2,  2",
         "3,  3",
         "4,  5",
-        "5,  8"
+        "45, 1836311903"
     )
     fun `should count number of ways to climb N stairs`(stairs: Int, expected: Int) {
         assertThat(ClimbingStairsSolution.countDistinctWays(stairs)).isEqualTo(expected)
