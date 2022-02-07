@@ -29,3 +29,4 @@ Implementation of various algorithms in Kotlin
 - [x] [Longest increasing subsequence](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/LongestIncreasingSubsequence.kt) [(description)](https://www.hackerrank.com/challenges/longest-increasing-subsequent)
 - [x] [Longest common subsequence](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/LongestCommonSubsequence.kt) [(description)](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence)
 - [x] [Distinct ways to climb stairs](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/ClimbingStairsSolution.kt) [(description)](https://leetcode.com/problems/climbing-stairs)
+- [x] [Max subarray](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxSubarray.kt) [(description)](https://leetcode.com/problems/maximum-subarray)
