@@ -32,4 +32,5 @@ Implementation of various algorithms in Kotlin
 - [x] [Max subarray](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxSubarray.kt) [(description)](https://leetcode.com/problems/maximum-subarray)
 - [x] [Best Time to Buy and Sell Stock](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/BuyAndSellStock.kt) [(description)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [x] [Counting Bits](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/CountingBits.kt) [(description)](https://leetcode.com/problems/counting-bits)
+- [x] [Max Like-Time Coefficient](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxLikeTimeCoefficientSolution.kt) [(description)](https://leetcode.com/problems/reducing-dishes)
 
