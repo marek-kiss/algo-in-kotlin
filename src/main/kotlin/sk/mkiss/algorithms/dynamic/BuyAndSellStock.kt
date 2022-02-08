@@ -5,7 +5,7 @@ import kotlin.math.max
 object BuyAndSellStock {
     fun maxProfit(prices: IntArray): Int {
         require(prices.isNotEmpty())
-        require(prices.all { it > 0 })
+        require(prices.all { it >= 0 })
 
         var maxProfit = 0
         var maxSell = prices.last()

@@ -19,14 +19,9 @@ internal class BuyAndSellStockTest {
         assertThrows<IllegalArgumentException> { BuyAndSellStock.maxProfit(intArrayOf(5, 4, 9, -1, 9)) }
     }
 
-    @Test
-    fun `should throw exception if a price is 0`() {
-        assertThrows<IllegalArgumentException> { BuyAndSellStock.maxProfit(intArrayOf(5, 4, 9, 0, 9)) }
-    }
-
     @ParameterizedTest(name = "given prices {0}, the max profit should be {1}")
     @MethodSource("getTestData")
-    fun `test`(prices: IntArray, expectedProfit: Int) {
+    fun `should calculate the max profit for given prices`(prices: IntArray, expectedProfit: Int) {
         assertThat(BuyAndSellStock.maxProfit(prices)).isEqualTo(expectedProfit)
     }
 
