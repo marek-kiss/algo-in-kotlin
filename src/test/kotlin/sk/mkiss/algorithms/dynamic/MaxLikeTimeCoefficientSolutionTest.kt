@@ -11,7 +11,6 @@ internal class MaxLikeTimeCoefficientSolutionTest {
     @MethodSource("getTestData")
     fun `should calculate the max like-time coefficient`(satisfactions: IntArray, expected: Int) {
         assertThat(MaxLikeTimeCoefficientSolution.maxSatisfaction(satisfactions)).isEqualTo(expected)
-        assertThat(MaxLikeTimeCoefficientSolution.maxSatisfaction(intArrayOf(-10, -5, -1, 0, 1, 1))).isEqualTo(6)
     }
 
     companion object {
