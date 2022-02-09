@@ -30,7 +30,7 @@ Implementation of various algorithms in Kotlin
 - [x] [Longest common subsequence](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/LongestCommonSubsequence.kt) [(description)](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence)
 - [x] [Distinct ways to climb stairs](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/ClimbingStairsSolution.kt) [(description)](https://leetcode.com/problems/climbing-stairs)
 - [x] [Max subarray](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxSubarray.kt) [(description)](https://leetcode.com/problems/maximum-subarray)
-- [x] [Best Time to Buy and Sell Stock](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/BuyAndSellStock.kt) [(description)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [x] [Best Time to Buy and Sell Stock](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/BuyAndSellStock.kt) [(description 1)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) [(description 2)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 - [x] [Counting Bits](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/CountingBits.kt) [(description)](https://leetcode.com/problems/counting-bits)
 - [x] [Max Like-Time Coefficient](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxLikeTimeCoefficientSolution.kt) [(description)](https://leetcode.com/problems/reducing-dishes)
 
