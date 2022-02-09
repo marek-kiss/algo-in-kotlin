@@ -16,7 +16,7 @@ internal class BuyAndSellStockTest {
 
     @Test
     fun `maxProfitFromOneDeal - should throw exception if a price is negative`() {
-        assertThrows<IllegalArgumentException> { BuyAndSellStock.maxProfitFromOneDeal(intArrayOf(5, 4, 9, -1, 9)) }
+        assertThrows<IllegalArgumentException> { BuyAndSellStock.maxProfitFromOneDeal(intArrayOf(5, -1, 9)) }
     }
 
     @ParameterizedTest(name = "given prices {0}, the max profit should be {1}")
@@ -35,17 +35,7 @@ internal class BuyAndSellStockTest {
 
     @Test
     fun `maxProfitFromMultipleDeals - should throw exception if a price is negative`() {
-        assertThrows<IllegalArgumentException> {
-            BuyAndSellStock.maxProfitFromMultipleDeals(
-                intArrayOf(
-                    5,
-                    4,
-                    9,
-                    -1,
-                    9
-                )
-            )
-        }
+        assertThrows<IllegalArgumentException> { BuyAndSellStock.maxProfitFromMultipleDeals(intArrayOf(5, -1, 9)) }
     }
 
     @ParameterizedTest(name = "given prices {0}, the max total profit should be {1}")
