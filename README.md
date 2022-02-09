@@ -33,4 +33,4 @@ Implementation of various algorithms in Kotlin
 - [x] [Best Time to Buy and Sell Stock](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/BuyAndSellStock.kt) [(description 1)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) [(description 2)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 - [x] [Counting Bits](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/CountingBits.kt) [(description)](https://leetcode.com/problems/counting-bits)
 - [x] [Max Like-Time Coefficient](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxLikeTimeCoefficientSolution.kt) [(description)](https://leetcode.com/problems/reducing-dishes)
-
+- [x] [First Missing Positive](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/FirstMissingPositive.kt) [(description)](https://leetcode.com/problems/first-missing-positive)
