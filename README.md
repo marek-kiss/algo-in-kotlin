@@ -34,3 +34,8 @@ Implementation of various algorithms in Kotlin
 - [x] [Counting Bits](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/CountingBits.kt) [(description)](https://leetcode.com/problems/counting-bits)
 - [x] [Max Like-Time Coefficient](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxLikeTimeCoefficientSolution.kt) [(description)](https://leetcode.com/problems/reducing-dishes)
 - [x] [First Missing Positive](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/FirstMissingPositive.kt) [(description)](https://leetcode.com/problems/first-missing-positive)
+
+### Graph Algorithms
+- [ ] Depth-first search
+- [ ] Breadth-first search
+- [x] [Find Closest Value in BST](../main/src/main/kotlin/sk/mkiss/algorithms/graph/ClosestValueInBST.kt)
