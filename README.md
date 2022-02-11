@@ -36,6 +36,6 @@ Implementation of various algorithms in Kotlin
 - [x] [First Missing Positive](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/FirstMissingPositive.kt) [(description)](https://leetcode.com/problems/first-missing-positive)
 
 ### Graph Algorithms
-- [ ] Depth-first search
+- [x] [Depth-first search](../main/src/main/kotlin/sk/mkiss/algorithms/graph/DepthFirstSearch.kt)
 - [ ] Breadth-first search
 - [x] [Find Closest Value in BST](../main/src/main/kotlin/sk/mkiss/algorithms/graph/ClosestValueInBST.kt)
