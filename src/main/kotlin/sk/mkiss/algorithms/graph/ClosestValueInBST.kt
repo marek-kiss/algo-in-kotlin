@@ -26,8 +26,3 @@ object ClosestValueInBST {
         return closest
     }
 }
-
-class BST(val value: Int) {
-    var left: BST? = null
-    var right: BST? = null
-}

@@ -39,3 +39,4 @@ Implementation of various algorithms in Kotlin
 - [x] [Depth-first search](../main/src/main/kotlin/sk/mkiss/algorithms/graph/DepthFirstSearch.kt)
 - [x] [Breadth-first search](../main/src/main/kotlin/sk/mkiss/algorithms/graph/BreadthFirstSearch.kt)
 - [x] [Find Closest Value in BST](../main/src/main/kotlin/sk/mkiss/algorithms/graph/ClosestValueInBST.kt)
+- [x] [Binary search tree](../main/src/main/kotlin/sk/mkiss/algorithms/graph/BST.kt)
