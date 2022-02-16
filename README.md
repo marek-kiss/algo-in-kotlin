@@ -35,6 +35,7 @@ Implementation of various algorithms in Kotlin
 - [x] [Max Like-Time Coefficient](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/MaxLikeTimeCoefficientSolution.kt) [(description)](https://leetcode.com/problems/reducing-dishes)
 - [x] [First Missing Positive](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/FirstMissingPositive.kt) [(description)](https://leetcode.com/problems/first-missing-positive)
 - [x] [Levenshtein distance](../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/LevenshteinDistance.kt) [(description)](https://leetcode.com/problems/edit-distance)
+- [x] [Array of products]((../main/src/main/kotlin/sk/mkiss/algorithms/dynamic/ArrayOfProduct.kt)) [(description)](https://leetcode.com/problems/product-of-array-except-self)
 
 ### Graph Algorithms
 - [x] [Depth-first search](../main/src/main/kotlin/sk/mkiss/algorithms/graph/DepthFirstSearch.kt)
