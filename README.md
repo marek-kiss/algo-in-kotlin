@@ -12,6 +12,7 @@ Implementation of various algorithms in Kotlin
 
 ### Search Algorithms
 - [x] [Binary Search](../main/src/main/kotlin/sk/mkiss/algorithms/search/BinarySearch.kt)
+- [x] [Search Top 3 Numbers](../main/src/main/kotlin/sk/mkiss/algorithms/search/SearchThreeLargestNumbers.kt)
 - [x] [Search in Sorted Matrix](../main/src/main/kotlin/sk/mkiss/algorithms/search/SearchInSortedMatrix.kt) [(description)](https://leetcode.com/problems/search-a-2d-matrix-ii)
 
 ### Generators
