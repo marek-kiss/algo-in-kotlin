@@ -45,3 +45,8 @@ Implementation of various algorithms in Kotlin
 - [x] [Find Closest Value in BST](../main/src/main/kotlin/sk/mkiss/algorithms/graph/ClosestValueInBST.kt)
 - [x] [Binary search tree](../main/src/main/kotlin/sk/mkiss/algorithms/graph/BST.kt)
 - [x] [Validate BST](../main/src/main/kotlin/sk/mkiss/algorithms/graph/BSTValidator.kt)
+
+### Data Structures
+- [x] [Suffix Tree](../main/kotlin/sk/mkiss/algorithms/datastructure/SuffixTree.kt)
+- [ ] Heap
+- [ ] MinMax Stack
