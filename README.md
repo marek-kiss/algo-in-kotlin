@@ -48,5 +48,5 @@ Implementation of various algorithms in Kotlin
 
 ### Data Structures
 - [x] [Suffix Tree](../main/kotlin/sk/mkiss/algorithms/datastructure/SuffixTree.kt)
-- [ ] Heap
+- [x] [Heap](../main/kotlin/sk/mkiss/algorithms/datastructure/MinHeap.kt)
 - [x] [MinMax Stack](../main/kotlin/sk/mkiss/algorithms/datastructure/MinMaxStack.kt)
